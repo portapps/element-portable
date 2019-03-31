@@ -12,7 +12,7 @@
 
 ## About
 
-[WhatsApp](https://about.riot.im/) portable app made with 🚀 [Portapps](https://portapps.io).<br />
+[Riot](https://about.riot.im/) portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/riot-portable/
 
 ## How can I help ?
