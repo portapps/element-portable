@@ -12,13 +12,15 @@
 
 ## Notice of Non-Affiliation and Disclaimer
 
-Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Riot.im, or any of its subsidiaries or its affiliates. The official Riot.im website can be found at https://about.riot.im/.
+Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Riot.im™, or any of its subsidiaries or its affiliates.
 
-The name Riot.im® as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+The official Riot.im™ website can be found at https://about.riot.im/.
+
+The name Riot.im™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 ## About
 
-Riot.im portable app made with 🚀 [Portapps](https://portapps.io).<br />
+Riot.im™ portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/riot-portable/
 
 ## How can I help ?
