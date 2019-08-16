@@ -34,6 +34,9 @@ func main() {
 	electronBinPath := utl.PathJoin(app.AppPath, utl.FindElectronAppFolder("app-", app.AppPath))
 
 	app.Process = utl.PathJoin(app.AppPath, "Riot.exe")
+	app.Args = []string{
+		"--user-data-dir=" + app.DataPath,
+	}
 	app.WorkingDir = electronBinPath
 
 	// Copy default shortcut
