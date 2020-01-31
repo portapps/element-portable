@@ -15,15 +15,25 @@ import (
 	"github.com/portapps/riot-portable/assets"
 )
 
+type config struct {
+	Cleanup bool `yaml:"cleanup" mapstructure:"cleanup"`
+}
+
 var (
 	app *App
+	cfg *config
 )
 
 func init() {
 	var err error
 
+	// Default config
+	cfg = &config{
+		Cleanup: false,
+	}
+
 	// Init app
-	if app, err = New("riot-portable", "Riot"); err != nil {
+	if app, err = NewWithCfg("riot-portable", "Riot", cfg); err != nil {
 		Log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
 	}
 }
@@ -37,6 +47,15 @@ func main() {
 		"--user-data-dir=" + app.DataPath,
 	}
 	app.WorkingDir = electronBinPath
+
+	// Cleanup on exit
+	if cfg.Cleanup {
+		defer func() {
+			utl.Cleanup([]string{
+				path.Join(os.Getenv("APPDATA"), "Riot"),
+			})
+		}()
+	}
 
 	// Copy default shortcut
 	shortcutPath := path.Join(utl.StartMenuPath(), "Riot Portable.lnk")
