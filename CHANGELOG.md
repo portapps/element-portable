@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.8-33 (2020/07/04)
+
+* Riot 1.6.8
+* No more win32 release (vector-im/riot-web#13175)
+* Portapps 2.4.4
+
 ## 1.5.15-32 (2020/04/05)
 
 * Riot 1.5.15
