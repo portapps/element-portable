@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.7.3-34 (2020/08/07)
+
+* Riot [rebranded Element](https://element.io/blog/welcome-to-element/)
+* Element 1.7.3
+* Portapps 2.5.0
+
 ## 1.6.8-33 (2020/07/04)
 
 * Riot 1.6.8

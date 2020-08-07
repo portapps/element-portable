@@ -1,26 +1,26 @@
-<p align="center"><a href="https://portapps.io/app/riot-portable/" target="_blank"><img width="100" src="https://github.com/portapps/riot-portable/blob/master/res/papp.png"></a></p>
+<p align="center"><a href="https://portapps.io/app/element-portable/" target="_blank"><img width="100" src="https://github.com/portapps/element-portable/blob/master/res/papp.png"></a></p>
 
 <p align="center">
-  <a href="https://portapps.io/app/riot-portable/#download"><img src="https://img.shields.io/github/release/portapps/riot-portable.svg?style=flat-square" alt="GitHub release"></a>
-  <a href="https://portapps.io/app/riot-portable/#download"><img src="https://img.shields.io/github/downloads/portapps/riot-portable/total.svg?style=flat-square" alt="Total downloads"></a>
-  <a href="https://travis-ci.com/portapps/riot-portable"><img src="https://img.shields.io/travis/com/portapps/riot-portable/master.svg?style=flat-square" alt="Build Status"></a>
-  <a href="https://goreportcard.com/report/github.com/portapps/riot-portable"><img src="https://goreportcard.com/badge/github.com/portapps/riot-portable?style=flat-square" alt="Go Report"></a>
-  <a href="https://app.codacy.com/gh/portapps/riot-portable"><img src="https://img.shields.io/codacy/grade/794e093cb2cb49e2a01660c5dcfe641b.svg?style=flat-square" alt="Code Quality"></a>
+  <a href="https://portapps.io/app/element-portable/#download"><img src="https://img.shields.io/github/release/portapps/element-portable.svg?style=flat-square" alt="GitHub release"></a>
+  <a href="https://portapps.io/app/element-portable/#download"><img src="https://img.shields.io/github/downloads/portapps/element-portable/total.svg?style=flat-square" alt="Total downloads"></a>
+  <a href="https://travis-ci.com/portapps/element-portable"><img src="https://img.shields.io/travis/com/portapps/element-portable/master.svg?style=flat-square" alt="Build Status"></a>
+  <a href="https://goreportcard.com/report/github.com/portapps/element-portable"><img src="https://goreportcard.com/badge/github.com/portapps/element-portable?style=flat-square" alt="Go Report"></a>
+  <a href="https://app.codacy.com/gh/portapps/element-portable"><img src="https://img.shields.io/codacy/grade/794e093cb2cb49e2a01660c5dcfe641b.svg?style=flat-square" alt="Code Quality"></a>
   <br /><a href="https://github.com/sponsors/crazy-max"><img src="https://img.shields.io/badge/sponsor-crazy--max-181717.svg?logo=github&style=flat-square" alt="Become a sponsor"></a>
   <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square" alt="Donate Paypal"></a>
 </p>
 
 ## Notice of Non-Affiliation and Disclaimer
 
-Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Riot.im™, or any of its subsidiaries or its affiliates.
+Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element™, or any of its subsidiaries or its affiliates.
 
-The official Riot.im™ website can be found at https://about.riot.im/.
+The official Element™ website can be found at https://element.io.
 
-The name Riot.im™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+The name Element™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 ## About
 
-Riot.im™ portable app made with 🚀 [Portapps](https://portapps.io).<br />
+Element™ portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/riot-portable/
 
 ## How can I help ?

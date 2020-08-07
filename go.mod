@@ -1,4 +1,4 @@
-module github.com/portapps/riot-portable
+module github.com/portapps/element-portable
 
 go 1.13
 
