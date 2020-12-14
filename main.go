@@ -36,18 +36,13 @@ func init() {
 
 func main() {
 	utl.CreateFolder(app.DataPath)
-
-	electronAppFolder, err := utl.FindElectronAppFolder("app-", app.AppPath)
-	if err != nil {
-		log.Fatal().Msgf("Electron main folder not found")
-	}
-	electronBinPath := utl.PathJoin(app.AppPath, electronAppFolder)
+	electronAppPath := app.ElectronAppPath()
 
 	app.Process = utl.PathJoin(app.AppPath, "Element.exe")
 	app.Args = []string{
 		"--user-data-dir=" + app.DataPath,
 	}
-	app.WorkingDir = electronBinPath
+	app.WorkingDir = electronAppPath
 
 	// Cleanup on exit
 	if cfg.Cleanup {
