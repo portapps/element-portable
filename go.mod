@@ -2,10 +2,7 @@ module github.com/portapps/element-portable
 
 go 1.23
 
-require (
-	github.com/kevinburke/go-bindata v3.24.0+incompatible
-	github.com/portapps/portapps/v3 v3.14.1
-)
+require github.com/portapps/portapps/v3 v3.14.1
 
 require (
 	github.com/akavel/rsrc v0.10.2 // indirect
