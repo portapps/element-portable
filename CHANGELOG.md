@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.12.29-44 (2026/09/27)
+
+* Element 1.12.29
+* Use profile directory option for portable data
+* Portapps 3.19.0
+
 ## 1.10.10-43 (2022/05/08)
 
 * Element 1.10.10
