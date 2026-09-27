@@ -42,7 +42,7 @@ func main() {
 
 	app.Process = filepath.Join(app.AppPath, "Element.exe")
 	app.Args = []string{
-		"--user-data-dir=" + app.DataPath,
+		"--profile-dir=" + app.DataPath,
 	}
 	app.WorkingDir = electronAppPath
 
